@@ -64,3 +64,21 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+# some commands while developing the project
+
+# To install the some libraries :
+
+``` shell
+$ forge install OpenZeppelin/openzeppelin-contracts --no-commit
+
+```
+
+```shell
+
+$ forge coverage 
+$ forge test --match-test <functionname>
+$ forge coverage --report debug
+$ forge clean
+$ forge build
+```
